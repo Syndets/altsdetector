@@ -1,0 +1,15 @@
+name: AltsDetector
+version: '${project.version}'
+main: uwu.syndets.altsdetector.AltsDetector
+api-version: '1.20'
+commands:
+  alts:
+    description: Shows all alternate accounts for a player based on their IP.
+    usage: /alts [playername]
+    permission: altsdetector.alts
+    permission-message: You don't have permission to use this command.
+
+permissions:
+  altsplugin.alts:
+    description: Allows use of the /alts command.
+    default: op

@@ -1,0 +1,5 @@
+# If true, hides the IP address and shows player names. If false, shows the IP address instead.
+hide-ip: true
+
+# If true, automatically bans players who log in with an alt account that's banned.
+auto-ban: false
